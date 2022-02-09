@@ -19,6 +19,8 @@ Como la base de datos es en memoria se creo este usuario en una lista de usuario
 ![image](https://user-images.githubusercontent.com/8826597/153129501-cb67b779-3ecf-4b54-990b-78de2b0a86cb.png)
 
 
+Para acceder al API se debe ingresar al http://localhost:3000/api
+
 Esto nos devolvera el Token el cual debe ir en swagger para que nos permita crear un nuevo Vehiculo
 
 ![image](https://user-images.githubusercontent.com/8826597/153129797-763f8294-fc71-45f3-9ba9-9a71584399fd.png)
