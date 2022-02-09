@@ -1,16 +1,20 @@
 # Nectia - Prueba Técnica enfocada en las tareas BackEnd Nicolás Roa
 
-Se utilizo NodeJS, NestJs, Passport, JWT, Swagger y sqlite en memoria
+Para esto se realizo un estudio de documentación oficial de NestJs (https://docs.nestjs.com/)
+
+
+Se utilizo NodeJS, NestJs, Passport, JWT, Swagger y Sqlite en memoria
 
 Para iniciar el proyecto se debe acceder a la carpeta del proyecto y ejecutar el comando npm run start 
 
 Para Obtener el Token se debe realizar desde PostMan u otra herramienta una petición Post al url http://localhost:3000/auth/login con el siguiente cuerpo
-Como la base de datos es en memoria se creo este usuario en una lista de usuario el cual esta ubicado en el archivo "nectia\src\users\users.service.ts"
-<br>
+
 {
     "username": "nroa", 
     "password": "1234"
 }
+
+Como la base de datos es en memoria se creo este usuario en una lista de usuario el cual esta ubicado en el archivo "nectia\src\users\users.service.ts"
 
 ![image](https://user-images.githubusercontent.com/8826597/153129501-cb67b779-3ecf-4b54-990b-78de2b0a86cb.png)
 
