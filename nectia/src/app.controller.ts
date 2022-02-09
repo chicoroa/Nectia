@@ -13,9 +13,9 @@ export class AppController {
     return this.authService.login(req.user);
   }
 
-  // @UseGuards(JwtAuthGuard)
-  // @Get('api')
-  // getProfile(@Request() req) {
-  //   return req.user;
-  // }
+  @Get('/')
+  getMensaje() {
+    return "Para acceder al api debe ingresar a http://localhost:3000/api";
+  }
+
 }
